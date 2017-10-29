@@ -45,7 +45,6 @@ def full?(board)
   else
     false
   end
-
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
