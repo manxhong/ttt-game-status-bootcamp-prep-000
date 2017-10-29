@@ -47,5 +47,9 @@ def full?(board)
   end
 end
 
+def draw?(board)
+  
+end
+
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 puts full?(board)
