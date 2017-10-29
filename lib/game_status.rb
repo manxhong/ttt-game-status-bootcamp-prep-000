@@ -84,6 +84,7 @@ def winner(board)
       return "O"
     end
   end
+  return nil
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
