@@ -64,7 +64,7 @@ def over?(board)
 end
 
 def winner(board)
-  winn
+  
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
