@@ -43,8 +43,10 @@ def full?(board)
   puts full
   if full
     true
+  else
+    false
   end
-false
+
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
