@@ -40,7 +40,6 @@ def full?(board)
   full = board.all? do |letter|
     letter == "X" || letter == "O"
   end
-  puts full
   if full
     true
   else
