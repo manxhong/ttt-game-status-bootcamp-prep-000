@@ -30,11 +30,10 @@ def won?(board)
     end
 
     if all_x || all_o
-      combo_array
-    else
-      false
+      return combo_array
     end
   end
+  return false
 end
 
 def full?(board)
