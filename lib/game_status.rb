@@ -76,6 +76,12 @@ def winner(board)
     all_o = arr.all? do |value|
       value == "O"
     end
+
+    if all_x
+      return "X"
+    else
+      return "O"
+    end
   end
 end
 
