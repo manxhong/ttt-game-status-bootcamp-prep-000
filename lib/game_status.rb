@@ -46,5 +46,5 @@ def full?(board)
 false
 end
 
-board = [" ", " ", " ", "O", "O", "O", " ", " ", " "]
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 puts full?(board)
