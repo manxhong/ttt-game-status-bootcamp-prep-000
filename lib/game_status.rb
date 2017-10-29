@@ -80,8 +80,10 @@ def winner(board)
     if all_x
       return "X"
     end
+    if all_o
+      return "O"
+    end
   end
-  return "O"
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
