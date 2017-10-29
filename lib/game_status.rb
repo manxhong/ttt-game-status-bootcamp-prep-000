@@ -37,15 +37,13 @@ def won?(board)
 end
 
 def full?(board)
-  board.each do |value|
-    full = value.all? do |letter|
-      letter == "X" || letter == "O"
-    end
-    if full
-      true
-    end
+  full = value.all? do |letter|
+    letter == "X" || letter == "O"
   end
-  false
+  if full
+    true
+  end
+false
 end
 
 board = [" ", " ", " ", "O", "O", "O", " ", " ", " "]
